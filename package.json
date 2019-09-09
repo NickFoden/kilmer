@@ -1,6 +1,6 @@
 {
   "name": "kilmer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A React component library based on Rinse.",
   "main": "dist/kilmer.js",
   "scripts": {
