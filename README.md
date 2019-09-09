@@ -1,5 +1,5 @@
 <p align="center">
-	<img src="https://pbs.twimg.com/media/ECAx5sAX4AATatg?format=jpg&name=4096x4096" height={400} alt="kilmer" />
+	<img src="https://pbs.twimg.com/media/ECAx5sAX4AATatg?format=jpg&name=4096x4096" height={200} width="auto" alt="kilmer" />
 </p>
 
 > Kilmer is a React component library.
