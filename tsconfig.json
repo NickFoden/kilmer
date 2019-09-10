@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "esNext",
+      "module": "commonjs",
+      "declaration": true,
+      "outDir": "./lib",
+      "strict": true,
+      "noUnusedLocals": true,
+      "jsx": "react",
+      "types": ["react", "jest"]
+    },
+    "include": ["src"],
+    "exclude": ["node_modules", "**/__tests__/*"]
+  }
