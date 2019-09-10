@@ -13,8 +13,12 @@ import Button from './Button';
 // rendered in the rendering area
 storiesOf('Button')
 	.add('with text', () => (
-		<Button onClick={action('clicked')}>Hello Button</Button>
+		<Button color="white" backgroundColor="tomato" onClick={action('clicked')}>
+			Hello Button
+		</Button>
 	))
 	.add('with emoji', () => (
-		<Button onClick={action('clicked')}>🚿 🚿 🐈 🐈</Button>
+		<Button color="white" backgroundColor="tomato" onClick={action('clicked')}>
+			🚿 🚿 🐈 🐈
+		</Button>
 	));

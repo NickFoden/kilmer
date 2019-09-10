@@ -1,13 +1,14 @@
 import * as React from 'react';
 import styled from 'styled-components';
+import { color, space } from 'styled-system'
 
 const ButtonWrapper = styled.button`
 	border-radius: 8px;
-	color: #fff;
-	background: mediumvioletred;
+	${color}
 	padding: 8px 15px;
 	border: none;
 	outline: none;
+	${space}
 `;
 
 export function Button(props: any) {
