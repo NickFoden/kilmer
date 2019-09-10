@@ -8,3 +8,4 @@ temp
 *.psd
 yarn.lock
 lib
+.DS_Store
