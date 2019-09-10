@@ -10,8 +10,9 @@ const ButtonWrapper = styled.button`
 	outline: none;
 `;
 
-function Button(props: any) {
+export function Button(props: any) {
 	return <ButtonWrapper {...props as any} > {props.children as any}</ButtonWrapper>;
 }
+
 
 export default Button;
