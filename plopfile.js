@@ -11,8 +11,18 @@ module.exports = (plop) => {
 		actions: [
 			{
 				type: 'add',
-				path: 'src/components/{{name}}/{{name}}.js',
-				templateFile: 'plop-templates/Component.js.hbs',
+				path: 'src/components/{{name}}/stories.js',
+				templateFile: 'plop-templates/stories.js',
+			},
+			{
+				type: 'add',
+				path: 'src/components/{{name}}/index.js',
+				templateFile: 'plop-templates/index.js',
+			},
+			{
+				type: 'add',
+				path: 'src/components/{{name}}/{{name}}.tsx',
+				templateFile: 'plop-templates/starter.tsx',
 			},
 		],
 	});
