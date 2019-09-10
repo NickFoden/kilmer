@@ -7,3 +7,4 @@ temp
 .out
 *.psd
 yarn.lock
+lib

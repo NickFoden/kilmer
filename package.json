@@ -10,7 +10,8 @@
     "build-storybook": "build-storybook -c .storybook -o .out",
     "storybook": "start-storybook -p 9001",
     "docz:dev": "docz dev",
-    "docz:build": "docz build"
+    "docz:build": "docz build",
+    "prepare": "tsc"
   },
   "repository": {
     "type": "git"
