@@ -1,8 +1,8 @@
 {
   "name": "kilmer",
-  "version": "0.0.3",
+  "version": "0.0.31",
   "description": "A React component library based on Rinse.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
