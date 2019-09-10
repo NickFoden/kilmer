@@ -1,6 +1,6 @@
 {
   "name": "kilmer",
-  "version": "0.0.32",
+  "version": "0.0.33",
   "description": "A React component library based on Rinse.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
