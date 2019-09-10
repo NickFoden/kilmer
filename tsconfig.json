@@ -1,11 +1,14 @@
 {
     "compilerOptions": {
-      "target": "esNext",
+      "target": "esnext",
       "module": "commonjs",
-      "declaration": true,
-      "outDir": "./lib",
+      // "declaration": true,
+      "allowJs": true,
+      "outDir": "lib",
       "strict": true,
       "noUnusedLocals": true,
+      "noImplicitAny": false,
+      "moduleResolution": "node",
       "jsx": "react",
       "types": ["react", "jest"]
     },
