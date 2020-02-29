@@ -12,7 +12,7 @@ const ButtonWrapper = styled.button`
 `;
 
 export function Button(props: any) {
-	return <ButtonWrapper {...props as any} > {props.children as any}</ButtonWrapper>;
+	return <ButtonWrapper {...props as any} >{props.children as any}</ButtonWrapper>;
 }
 
 
